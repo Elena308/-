@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+
+@media(max-width: 650px){
+   .info{
+    display: block;
+    text-align: center;
+   }
+
+}
+body{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #C2E812;
+    background: #E8D2AE;
+   
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #6F9CEB;
+    margin: 0;
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+.info-text{
+    margin-left: 30px;
+}
+ .info-text h3{
+    margin: 10px;
+ }
+
+.card{
+    border-radius: 20px;
+    background-color: #FFA69E;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+.bg-purple{
+background: #C4D7F2;
+}
+.bg-yellow{
+    background: #FFC971;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+.avatar{
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.btn{
+    border:none;
+    border-radius: 15px;
+    background: #DBD8F0;
+    color:#FFA69E;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn:hover{
+    color: #2F004F;
+    opacity: 0.8;
+}
+a {
+    color: #DBD8F0;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: #FFA69E;
+}
+a:visited {
+    color: #2F004F;
+}
+h3 {
+    text-align: center;
+}
+.table{ 
+    width: 100%;
+    text-align: center;
+   border: solid;
+   border-radius: 15px;
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table td:hover{
+background: #745296;
+}
+
+.list{
+    padding: 0 20px;
+}
+.list li{
+    color: #745296;
+    margin-bottom: 5px;
+ }
+
+ @media(max-width: 650px){
+       .form{
+        display: block;
+       }
+
+ }
+ .form{
+    text-align: center;
+ }
+ .form-group label{
+    display: block;
+    font-size: 14px;
+    color: #6F9CEB;
+ }
+
+
+  .form-group input, 
+  form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #2F004F;
+    color: #EF5D60;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+  }
